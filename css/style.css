@@ -1,0 +1,114 @@
+*
+{
+	margin: 0;
+}
+
+html, body
+{
+	height: 100%;
+	width: 100%;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#navigation
+{
+	background: white;
+	text-align: center;
+	height: 10em;
+}
+
+#navigation h1
+{
+	font-family: 'Bungee Shade', cursive;
+	font-size: 3em;
+}
+
+#navigation ul 
+{
+	list-style-type: none;
+	padding: 0em 0em 1em 0em;
+}
+
+#navigation li
+{
+	font-family: 'Oswald', sans-serif;
+	display: inline;
+	margin: 2em;
+}
+
+#navigation li a:hover
+{
+	color: pink;
+	text-decoration: underline;
+}
+
+#wrapper
+{
+	background-image: url("/images/background.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #FFAFAF;
+	position: absolute;
+	width: 100%;
+	top: 10em;
+	bottom: 0;
+}
+
+#content
+{
+	font-family: 'Open Sans', sans-serif;
+	margin: auto;
+	width: 50%;
+	margin-top: 3em;
+	padding: 3em;
+	background: rgba(0,0,0,0.75);
+	color:white;
+}
+
+#content h1
+{
+	font-family: 'Monoton', cursive;
+	font-size: 1.5em;
+}
+
+#content td
+{
+	padding: 0.5em;
+	color: white;
+}
+
+#content input[type=text] 
+{
+	padding: 5px; 
+	border: 2px solid #ccc; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#content input[type=text]:focus {
+
+	border-color: #FFAFAF;
+}
+
+#content input[type=submit] 
+{
+	padding: 5px 15px; 
+	background: #ccc;
+	border: 0 none;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+#content input[type=submit]:hover
+{
+	background: #FFAFAF;
+	color: white;
+}
