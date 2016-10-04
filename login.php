@@ -16,7 +16,7 @@
 			{
 				$username = mysqli_fetch_array($result)[0];
 				setcookie("session",$username);
-				header("Location: /index.php?name=$username");
+				header("Location: /redirect.php?url=/index.php&name=$username");
 				exit();
 			}
 			else

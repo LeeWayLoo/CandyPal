@@ -14,11 +14,11 @@
 			$result = $conn->query($sql);
 			if(mysqli_num_rows($result) == 0)
 			{
-				$sql = "INSERT INTO accounts (username,password,email,candy) VALUES ('$username','$password','$email',5)";
+				$sql = "INSERT INTO accounts (username,password,email,reminder,candy) VALUES ('$username','$password','$email','',5)";
 				$result = $conn->query($sql);
 				mysqli_close($conn);
 				setcookie("session",$username);
-				header("Location: /index.php?name=$username");
+				header("Location: /redirect.php?url=/index.php&name=$username");
 				exit();
 			}
 			else

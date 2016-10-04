@@ -3,7 +3,7 @@
 	<?php
 		if($authenticated)
 		{
-			echo '<ul><li><a href="/index.php">HOME</a></li><li><a href="/send.php">SEND</a></li><li><a href="/logout.php">LOGOUT</a></li></ul>';
+			echo '<ul><li><a href="/index.php">HOME</a></li><li><a href="/send.php">SEND</a></li><li><a href="/reminder.php">REMINDER</a></li><li><a href="/logout.php">LOGOUT</a></li></ul>';
 		}
 		else
 		{
