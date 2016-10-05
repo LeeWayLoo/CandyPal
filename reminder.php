@@ -27,10 +27,10 @@
 <html>
 	<head>
 		<title>CandyPal - Reminder</title>
-		<?php include("/includes/header.php"); ?>
+		<?php include("includes/header.php"); ?>
 	</head>
 	<body>
-		<?php include("/includes/navigation.php"); ?>
+		<?php include("includes/navigation.php"); ?>
 		<div id="wrapper">
 			<div id="content">
 				<center>
