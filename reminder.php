@@ -47,7 +47,7 @@
 								<td><input type="text" maxlength="20" name="candy"><td>
 							</tr>
 							<tr>
-								<td colspan="2"><center><input type="submit" name="submit" onclick="return checkInputs('remindr')" value="Save"></center></td>
+								<td colspan="2"><center><input type="submit" name="submit" onclick="return checkInputs('reminder')" value="Save"></center></td>
 							</tr>
 						</table>
 					</form>
