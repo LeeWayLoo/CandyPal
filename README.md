@@ -1,1 +1,1 @@
-Code review challenge I built for Pivot Project.
+CandyPal is a vulnerable web application built on WAMP.
